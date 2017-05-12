@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_scope_design_access">
+    <sys_scope_design_access action="INSERT_OR_UPDATE">
+        <source_scope display_value="MaaS">e3b40dab0fe27200cbc28b9ae1050e9f</source_scope>
+        <sys_class_name>sys_scope_design_access</sys_class_name>
+        <sys_created_by>chris.layman</sys_created_by>
+        <sys_created_on>2017-05-12 05:55:32</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>b686d47f0f223200cbc28b9ae1050ed8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>bc6041df0f6a3200cbc28b9ae1050e4c</sys_name>
+        <sys_package display_value="MaaS" source="x_8302_maas">e3b40dab0fe27200cbc28b9ae1050e9f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="MaaS">e3b40dab0fe27200cbc28b9ae1050e9f</sys_scope>
+        <sys_update_name>sys_scope_design_access_b686d47f0f223200cbc28b9ae1050ed8</sys_update_name>
+        <sys_updated_by>chris.layman</sys_updated_by>
+        <sys_updated_on>2017-05-12 05:55:32</sys_updated_on>
+        <target_package display_value="Discovery Core" source="com.snc.discovery.core">bc6041df0f6a3200cbc28b9ae1050e4c</target_package>
+    </sys_scope_design_access>
+</record_update>

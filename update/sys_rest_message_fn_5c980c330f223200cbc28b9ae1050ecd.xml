@@ -11,9 +11,9 @@
         <lock>false</lock>
         <oauth2_profile/>
         <protocol_name/>
-        <qualified_name>MaaS [ Default GET ]</qualified_name>
+        <qualified_name>MaaS Rest [ Default GET ]</qualified_name>
         <rest_endpoint>http://52.23.15.47/maas/api_v2.php/${table}${attributes}</rest_endpoint>
-        <rest_message display_value="MaaS">ee388cf30f223200cbc28b9ae1050e81</rest_message>
+        <rest_message display_value="MaaS Rest">ee388cf30f223200cbc28b9ae1050e81</rest_message>
         <sys_class_name>sys_rest_message_fn</sys_class_name>
         <sys_created_by>chris.layman</sys_created_by>
         <sys_created_on>2017-05-12 04:54:18</sys_created_on>
