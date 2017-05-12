@@ -20,14 +20,28 @@ MaaSUtil.prototype = {
 		var source_str = w.source;
 		var sensor_str = this._getElement('ecc_queue','sys_id='+w.sensor,'name');
 		var cmdb_ci = this._getElement('cmdb_ci','sys_id='+w.cmdb_ci,'name');
+		this._getRest();
 	},
 	
 	_getElement: function(table,query,need){
 		var res = '';
-		var gr = new GlideRecord(table).addEncodedQuery(query).query();
-		while(gr.next()){res='gr.getElement(need)'; gs.info("Element: " +res);}
+		var gr = new GlideRecord(table);
+		gr.addEncodedQuery(query);
+		gr.query();
+		while(gr.next()){res=gr.getElement(need);}
 		return res;
 	},
+	
+	_getRest: function(){
+		var r = new sn_ws.RESTMessageV2('x_8302_maas.MaaSRest', 'GET');
+		 r.setStringParameterNoEscape('attributes', '');
+		 r.setStringParameterNoEscape('table', 'error_repo');
+		 var response = r.execute();
+		 var responseBody = response.getBody();
+		 var httpStatus = response.getStatusCode();
+		gs.info("Response: "+response+" responseBody: "+responseBody+" status: "+httpStatus);
+	},
+	
     
 	type: 'MaaSUtil'
 };]]></script>
@@ -36,7 +50,7 @@ MaaSUtil.prototype = {
         <sys_created_on>2017-05-12 06:18:58</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>7e8b90730f623200cbc28b9ae1050ed3</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>MaaSUtil</sys_name>
         <sys_package display_value="MaaS" source="x_8302_maas">e3b40dab0fe27200cbc28b9ae1050e9f</sys_package>
         <sys_policy>read</sys_policy>
@@ -44,6 +58,6 @@ MaaSUtil.prototype = {
         <sys_scope display_value="MaaS">e3b40dab0fe27200cbc28b9ae1050e9f</sys_scope>
         <sys_update_name>sys_script_include_7e8b90730f623200cbc28b9ae1050ed3</sys_update_name>
         <sys_updated_by>chris.layman</sys_updated_by>
-        <sys_updated_on>2017-05-12 17:31:33</sys_updated_on>
+        <sys_updated_on>2017-05-12 18:42:46</sys_updated_on>
     </sys_script_include>
 </record_update>

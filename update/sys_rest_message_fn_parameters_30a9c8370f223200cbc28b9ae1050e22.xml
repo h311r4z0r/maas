@@ -2,7 +2,7 @@
 <record_update table="sys_rest_message_fn_parameters">
     <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
         <name>attributes</name>
-        <rest_message_function display_value="Default GET">5c980c330f223200cbc28b9ae1050ecd</rest_message_function>
+        <rest_message_function display_value="GET">5c980c330f223200cbc28b9ae1050ecd</rest_message_function>
         <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
         <sys_created_by>chris.layman</sys_created_by>
         <sys_created_on>2017-05-12 04:59:05</sys_created_on>
