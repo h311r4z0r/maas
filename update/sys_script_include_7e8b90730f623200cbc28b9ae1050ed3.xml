@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sys_script_include">
     <sys_script_include action="INSERT_OR_UPDATE">
-        <access>package_private</access>
+        <access>public</access>
         <active>true</active>
         <api_name>x_8302_maas.MaaSUtil</api_name>
         <client_callable>false</client_callable>
@@ -13,7 +13,20 @@ MaaSUtil.prototype = {
     },
 	
 	passWarning: function(w){
-	gs.log("Passwed Info:" + w);
+		var discovery_status_str = this._getElement('discovery_status','sys_id='+w.status,'number');
+		var short_description_str = w.message;
+		var level_str = this._getElement('sys_choice','table=syslog^value='+w.level,'label');
+		var device_history_str = this._getElement('discovery_device_history','sys_id='+w.device_history,'source');
+		var source_str = w.source;
+		var sensor_str = this._getElement('ecc_queue','sys_id='+w.sensor,'name');
+		var cmdb_ci = this._getElement('cmdb_ci','sys_id='+w.cmdb_ci,'name');
+	},
+	
+	_getElement: function(table,query,need){
+		var res = '';
+		var gr = new GlideRecord(table).addEncodedQuery(query).query();
+		while(gr.next()){res='gr.getElement(need)'; gs.info("Element: " +res);}
+		return res;
 	},
     
 	type: 'MaaSUtil'
@@ -23,7 +36,7 @@ MaaSUtil.prototype = {
         <sys_created_on>2017-05-12 06:18:58</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>7e8b90730f623200cbc28b9ae1050ed3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>MaaSUtil</sys_name>
         <sys_package display_value="MaaS" source="x_8302_maas">e3b40dab0fe27200cbc28b9ae1050e9f</sys_package>
         <sys_policy>read</sys_policy>
@@ -31,6 +44,6 @@ MaaSUtil.prototype = {
         <sys_scope display_value="MaaS">e3b40dab0fe27200cbc28b9ae1050e9f</sys_scope>
         <sys_update_name>sys_script_include_7e8b90730f623200cbc28b9ae1050ed3</sys_update_name>
         <sys_updated_by>chris.layman</sys_updated_by>
-        <sys_updated_on>2017-05-12 06:18:58</sys_updated_on>
+        <sys_updated_on>2017-05-12 17:31:33</sys_updated_on>
     </sys_script_include>
 </record_update>
