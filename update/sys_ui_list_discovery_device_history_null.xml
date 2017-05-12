@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="discovery_device_history" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>source</element>
+            <list_id display_value="discovery_device_history" element="NULL" name="discovery_device_history" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5fc2731a37620000dadacffbcfbe5daa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>ben.yukich</sys_created_by>
+            <sys_created_on>2011-05-13 00:01:56</sys_created_on>
+            <sys_id>dfc2731a37620000dadacffbcfbe5daa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ben.yukich</sys_updated_by>
+            <sys_updated_on>2011-05-13 00:01:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>status</element>
+            <list_id display_value="discovery_device_history" element="NULL" name="discovery_device_history" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5fc2731a37620000dadacffbcfbe5daa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>ben.yukich</sys_created_by>
+            <sys_created_on>2011-05-13 00:01:56</sys_created_on>
+            <sys_id>53c2731a37620000dadacffbcfbe5dab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ben.yukich</sys_updated_by>
+            <sys_updated_on>2011-05-13 00:01:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>status.description</element>
+            <list_id display_value="discovery_device_history" element="NULL" name="discovery_device_history" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5fc2731a37620000dadacffbcfbe5daa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>ben.yukich</sys_created_by>
+            <sys_created_on>2011-05-13 00:01:56</sys_created_on>
+            <sys_id>d3c2731a37620000dadacffbcfbe5dab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ben.yukich</sys_updated_by>
+            <sys_updated_on>2011-05-13 00:01:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>last_state</element>
+            <list_id display_value="discovery_device_history" element="NULL" name="discovery_device_history" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5fc2731a37620000dadacffbcfbe5daa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>ben.yukich</sys_created_by>
+            <sys_created_on>2011-05-13 00:01:56</sys_created_on>
+            <sys_id>57c2731a37620000dadacffbcfbe5dab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ben.yukich</sys_updated_by>
+            <sys_updated_on>2011-05-13 00:01:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>started</element>
+            <list_id display_value="discovery_device_history" element="NULL" name="discovery_device_history" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5fc2731a37620000dadacffbcfbe5daa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>ben.yukich</sys_created_by>
+            <sys_created_on>2011-05-13 00:01:56</sys_created_on>
+            <sys_id>d7c2731a37620000dadacffbcfbe5dab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ben.yukich</sys_updated_by>
+            <sys_updated_on>2011-05-13 00:01:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>completed</element>
+            <list_id display_value="discovery_device_history" element="NULL" name="discovery_device_history" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5fc2731a37620000dadacffbcfbe5daa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>ben.yukich</sys_created_by>
+            <sys_created_on>2011-05-13 00:01:56</sys_created_on>
+            <sys_id>5bc2731a37620000dadacffbcfbe5dab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ben.yukich</sys_updated_by>
+            <sys_updated_on>2011-05-13 00:01:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>scan_status</element>
+            <list_id display_value="discovery_device_history" element="NULL" name="discovery_device_history" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5fc2731a37620000dadacffbcfbe5daa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>ben.yukich</sys_created_by>
+            <sys_created_on>2011-05-13 00:01:56</sys_created_on>
+            <sys_id>dbc2731a37620000dadacffbcfbe5dab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ben.yukich</sys_updated_by>
+            <sys_updated_on>2011-05-13 00:01:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="discovery_device_history" element="NULL" name="discovery_device_history" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5fc2731a37620000dadacffbcfbe5daa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>ben.yukich</sys_created_by>
+            <sys_created_on>2011-05-13 00:01:56</sys_created_on>
+            <sys_id>5fc2731a37620000dadacffbcfbe5dab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ben.yukich</sys_updated_by>
+            <sys_updated_on>2011-05-13 00:01:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_by</element>
+            <list_id display_value="discovery_device_history" element="NULL" name="discovery_device_history" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5fc2731a37620000dadacffbcfbe5daa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>ben.yukich</sys_created_by>
+            <sys_created_on>2011-05-13 00:01:56</sys_created_on>
+            <sys_id>dfc2731a37620000dadacffbcfbe5dab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ben.yukich</sys_updated_by>
+            <sys_updated_on>2011-05-13 00:01:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>discovery_device_history</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>chris.layman</sys_created_by>
+            <sys_created_on>2017-05-12 05:15:45</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a27dc0f70f223200cbc28b9ae1050e23</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>discovery_device_history</sys_name>
+            <sys_package display_value="MaaS" source="x_8302_maas">e3b40dab0fe27200cbc28b9ae1050e9f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="MaaS">e3b40dab0fe27200cbc28b9ae1050e9f</sys_scope>
+            <sys_update_name>sys_ui_list_discovery_device_history_null</sys_update_name>
+            <sys_updated_by>chris.layman</sys_updated_by>
+            <sys_updated_on>2017-05-12 05:15:45</sys_updated_on>
+            <sys_user display_value="Chris Layman">1beed81f0f2a3200cbc28b9ae1050ede</sys_user>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
